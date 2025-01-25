@@ -33,6 +33,11 @@ div {
   flex-direction: column;
 }
 
+#add-container {
+  display: flex;
+  flex-direction: column;
+}
+
 button {
  display: block;
 }

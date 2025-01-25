@@ -31,3 +31,13 @@ const newHello = () => {
 
   document.getElementById("say-hello").innerHTML = greeting;
 }
+
+// Function to add 
+
+const addBtn = document.getElementById("add-btn");
+
+addBtn.onclick = function() {
+  const firstNumber = Number(document.getElementById("num-one").value);
+  const secondNumber = Number(document.getElementById("num-two").value);
+  document.getElementById("total").innerHTML = firstNumber + secondNumber;
+}
