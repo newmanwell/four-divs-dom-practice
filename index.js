@@ -26,7 +26,7 @@ const newHello = () => {
   } else if (helloPicker === 6) {
     greeting = `Mandrain: Ni hǎo`;
   } else if (helloPicker === 7) {
-    greeting - `Arabic: mrhban`;
+    greeting = `Arabic: mrhban`;
   }
 
   document.getElementById("say-hello").innerHTML = greeting;
