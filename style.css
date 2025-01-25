@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div {
+  width: 49%;
+  height: 50vh;
+  border: 2px solid black;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 999px) {
+  div {
+    width: 100%;
+  }
+}
+
+
+
+button {
+ 
+}
