@@ -33,11 +33,22 @@ const newHello = () => {
 }
 
 // Function to add 
-
 const addBtn = document.getElementById("add-btn");
 
 addBtn.onclick = function() {
   const firstNumber = Number(document.getElementById("num-one").value);
   const secondNumber = Number(document.getElementById("num-two").value);
   document.getElementById("total").innerHTML = firstNumber + secondNumber;
+}
+
+// Functions for whispers
+const whisperBtn = document.getElementById("whisper-btn");
+
+whisperBtn.onclick = () => {
+  const message = document.getElementById("whisper-input").value.toLowerCase();
+  const h4 = document.createElement("h4");
+  document.getElementById("the-whispers").appendChild(h4);
+  h4.textContent = message;
+  
+
 }
