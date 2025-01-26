@@ -28,8 +28,31 @@ div {
   }
 }
 
+#hello-container {
+  display: flex;
+  flex-direction: column;
+}
 
+#add-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#whispers-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#the-whispers {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
 
 button {
- 
+ display: block;
+}
+
+h2 {
+  display: block;
 }

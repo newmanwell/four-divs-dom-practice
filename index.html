@@ -8,18 +8,25 @@
   </head>
   <body>
     <main>
-      <div id="one">
-        <button>Change Background Color</button>
+      <div id="bgColorContainer">
+        <button id="bgColorBtn" onclick="changeBgColor()">Change Background Color</button>
       </div>
-      <div id="two">
-        <button>Hello In</button>
+      <div id="hello-container">
+          <button id="hello-btn" onclick="newHello()">Hello In</button>
+          <h2 id="say-hello"></h2>
       </div>
-      <div id="three">
-        <button>TBD</button>
+      <div id="add-container">
+        <input type="number" id="num-one" placeholder="First Number">
+        <input type="number" id="num-two" placeholder="Second Number">
+        <button id="add-btn">Add 'em Up</button>
+        <h2 id="total"></h2>
       </div>
-      <div id="four">
-        <button>TBD</button>
+      <div id="whisper-container">
+        <input type="text" id="whisper-input" placeholder="Type Here">
+        <button id="whisper-btn">whisper!</button>
+        <div id="the-whispers"></div>
       </div>
     </main>
   </body>
+  <script src="./index.js"></script>
 </html>
