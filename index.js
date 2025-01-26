@@ -49,6 +49,4 @@ whisperBtn.onclick = () => {
   const h4 = document.createElement("h4");
   document.getElementById("the-whispers").appendChild(h4);
   h4.textContent = message;
-  
-
 }
